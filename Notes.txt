@@ -161,6 +161,9 @@ without initializing a new repository.
 What to do when conflict happen?
 1) Branching: create an alternative timeline, connected but independent, by using
 	"git branch *xxx*"
+2) Switch to the other branch by using
+	"git checkout experiment"
+3) Work in the new branch, changing files, and then committing the changes to the branch
 
 
 
