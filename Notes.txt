@@ -23,14 +23,16 @@ Using Git & Github for collaborating on research projects:
 
 Commands:
 
-git init		start a repository
-git add	XXX		bring files to the staging area
-git commit -m "xxx"	fix the changed documents to the timeline, with a meaningful 
-			message (why was it changed? How does this address the issue? Does
-			the change have any effect? Are there limitations linked to the change? It
-			is important to be descriptive! Don't focus on the lines that changed, because
-			you can visualize this in other ways. Instead, focus on the WHY and HOW. Without
-			the message, you get forced to write a message in a pop-up text editor. 
+git config --global user.email "xxx"		Add information about the user working on the station
+git config --global user.name "xxx"		Add information about the user working on the station
+git init					start a repository
+git add	XXX					bring files to the staging area
+git commit -m "xxx"				fix the changed documents to the timeline, with a meaningful 
+						message (why was it changed? How does this address the issue? Does
+						the change have any effect? Are there limitations linked to the change? It
+						is important to be descriptive! Don't focus on the lines that changed, because
+						you can visualize this in other ways. Instead, focus on the WHY and HOW. Without
+						the message, you get forced to write a message in a pop-up text editor. 
 
 		
 
