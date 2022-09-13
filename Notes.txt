@@ -35,12 +35,11 @@ git commit -m "xxx"				Fix the changed documents to the timeline, with a meaning
 						the message, you get forced to write a message in a pop-up text editor. 
 git log						See the history of all commits
 git log -2					See only the last 2 commits
-git checkout *hash*				travel to another commit, creating a new branch you can start working on
-git checkout master				travel back to the version you were working on (master branch)
+git checkout *hash*				travel to another commit, potentially creating a new branch you can start working on
+git checkout master				travel back to the version you were working on, in the main branch (master branch)
 git checkout HEAD~2				travel backwards 2 commits from your relative position	
-git checkout *hash*				travel back towards a specific commit			
 		
-
+		
 
 
 Notes about the commands:
@@ -52,8 +51,7 @@ check the progress of your work in Ungit to see if you are doing things correctl
 Git log gives you an overview of the commits. This will also show the person (ID + email) of the person making the commit. This is important
 when collaborating with colleagues. Therefore, it is always necessary to be logged in when working with Gitbash. 
 
-Git checkout allows you to show the past versions. Be aware! Changing the past can lead to confusion and issues, so better not try it out! You should
-just use the checkout to SEE what you changed. 
+Git checkout allows you to show the past versions. Be aware! Changing the past can lead to confusion and issues, so better not try it out! You should just use the checkout to SEE what you changed. 
 
 
 
