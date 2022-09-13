@@ -1,0 +1,1 @@
+This project aims to make the use of GitHub easy and understandable. It is based on a course provided by the VIB. 
