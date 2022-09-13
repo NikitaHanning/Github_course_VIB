@@ -5,9 +5,18 @@ Using Git & Github for collaborating on research projects:
 2. Create a new folder that will become a repository.
 3. Open Ungit via the command module ("ungit"). This is not a necessity, but creates a visual interface that makes the working process easier. 
 4. In Ungit, set the path - at the top of the screen - to the correct destination folder. 
-5. In gitbash, go to the correct folder by using "cd *Documents/GitHub_course_VIB*".
-6. In gitbash, initiate the repository by using "git init".
+5. In Gitbash, go to the correct folder by using "cd *Documents/GitHub_course_VIB*".
+6. In Gitbash, initiate the repository by using "git init".
 7. In Ungit, refresh the path: you should now be able to see a repository and its files. 
+8. In Gitbash, create an author identity using
+	"git config --global user.email "nikita.hanning@gmail.com""
+	"git config --global user.name "NikitaHanning""
+9. In Gitbash, add files from the development area to the staging area
+	"git add Notes.txt"
+10. In Gitbash, commit the changes with a meaningful message
+	"git commit -m "XXXXX""
+11. In Ungit, you can now see a point on the timeline (first commit).
+
 
 
 
@@ -36,3 +45,8 @@ There are 4 conceptual areas where you can work with git:
    --> Developing area: folder where the project is developed. This is where we will develop the project, e.g. our working files.
    --> Local repository: this is where the 'timeline' is. This is where you save snapshots that will document the timeline. 
    --> Staging area: a channel connecting the developing area and the local repository. 
+
+
+In Ungit, you can commit changes without adding them to a staging area (simply by pushing the 'commit' button). This is useful, but
+certain complex tasks cannot be done this way. Therefore, it is always good to be able to work with Gitbash itself, i.e. commands. 
+
