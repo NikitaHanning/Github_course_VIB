@@ -126,6 +126,11 @@ What to do if you accidently delete the entire local repository?
 6) Update the local repository using "git pull origin master" 
 
 
+What to do if you accidently delete one file and commit it?
+
+1) Use "git revert --no-commit *hash*"
+
+
 
 
 
