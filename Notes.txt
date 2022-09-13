@@ -48,7 +48,6 @@ git pull					Get the latest version of the remote repository in your local repos
 							--> to get back to the old version (backup)
 							--> to get new updates from your collaborators
 git clone					Copy a repository from a remote repository, creating a local repository
-git branch					Show the branches that are available in the local repository, * indicates the active branch
 		
 		
 
