@@ -1,0 +1,38 @@
+Using Git & Github for collaborating on research projects:
+
+1. Create a GitHub account and install Gitbash and Ungit. Then create a ssh-key with Gitbash and link it to your GitHub account. 
+   For download links and detailled instructions, see the emails of the course.
+2. Create a new folder that will become a repository.
+3. Open Ungit via the command module ("ungit"). This is not a necessity, but creates a visual interface that makes the working process easier. 
+4. In Ungit, set the path - at the top of the screen - to the correct destination folder. 
+5. In gitbash, go to the correct folder by using "cd *Documents/GitHub_course_VIB*".
+6. In gitbash, initiate the repository by using "git init".
+7. In Ungit, refresh the path: you should now be able to see a repository and its files. 
+
+
+
+Commands:
+
+git init		start a repository
+git add			bring files to the staging area
+git commit -m "xxx"	fix the changed documents to the timeline, with a meaningful 
+			message (why was it changed? How does this address the issue?, Does
+			the change have any effect? Are there limitations linked to the change? It
+			is important to be descriptive!
+
+
+
+Conceptual notes:
+
+Git creates a timeline that allows us to save different versions of files, and trace back changes (or even go back to them).
+Each version will be saved using a "commit". GitHub is a backup of the different timelines.
+
+Git = timemachine
+Repository = timeline
+GitHub = backup for the timelines
+
+There are 4 conceptual areas where you can work with git:
+1) your personal computer
+   --> Developing area: folder where the project is developed. This is where we will develop the project, e.g. our working files.
+   --> Local repository: this is where the 'timeline' is. This is where you save snapshots that will document the timeline. 
+   --> Staging area: a channel connecting the developing area and the local repository. 
