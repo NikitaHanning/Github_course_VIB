@@ -39,6 +39,7 @@ git checkout *hash*				Travel to another commit, potentially creating a new bran
 git checkout master				Travel back to the version you were working on, in the main branch (master branch)
 git checkout HEAD~2				Travel backwards 2 commits from your relative position	
 git rm xxx					Delete a file from the repository (needs to be commited afterwards)
+git remote *name* *url*				Create a link with a remote respository such as GitHub
 		
 		
 
@@ -88,6 +89,7 @@ Working on a repository via GitHub:
 	- README and .gitignore files are important!
 		--> README describes the project, in as much detail as possible. For example, how to debug scripts, what is the project about, who is involved, ... You
 		    can make this file as a txt-file in the local repository. 
+				--> makeareadme.com/mind-reading provides inspiration for writing a good README text file. 
 		--> .gitignore tells Git what NOT to store, such as big data files, backup files or intermediate files. These should not be commited to GitHub. There is
                     a limit of 100 MB per document. You can pay for larger files, up to 500 MB. It is recommended to only store files that need version control and that
 		    are smaller. You can make a txt-file with the name '.gitignore' and add information about the files to exclude (as a list);
@@ -95,7 +97,9 @@ Working on a repository via GitHub:
 		    		--> !dataset.cbs	except this file
 				--> #message		annotate the txt file
 	- choose public/private according to own preferences
-3) 
+3) The local and remote repositories now need to be linked (via a bridge). Use
+	"git remote add *name* *url*
+
 
 
 
