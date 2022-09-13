@@ -37,8 +37,8 @@ git log						See the history of all commits
 git log -2					See only the last 2 commits
 git checkout *hash*				travel to another commit, creating a new branch you can start working on
 git checkout master				travel back to the version you were working on (master branch)
-git checkout HEAD^2				travel forward 2 commits from your relative position
-git checkout HEAD~2				travel backwards 2 commits from your relative position				
+git checkout HEAD~2				travel backwards 2 commits from your relative position	
+git checkout *hash*				travel back towards a specific commit			
 		
 
 
