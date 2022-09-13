@@ -26,7 +26,7 @@ Commands:
 git config --global user.email "xxx"		Add information about the user working on the station
 git config --global user.name "xxx"		Add information about the user working on the station
 git init					Start a repository
-git add	XXX					Bring files to the staging area
+git add	xxx					Bring files to the staging area
 git commit -m "xxx"				Fix the changed documents to the timeline, with a meaningful 
 						message (why was it changed? How does this address the issue? Does
 						the change have any effect? Are there limitations linked to the change? It
@@ -62,4 +62,12 @@ There are 4 conceptual areas where you can work with git:
 In Ungit, you can commit changes without adding them to a staging area (simply by pushing the 'commit' button). This is useful, but
 certain complex tasks cannot be done this way. Therefore, it is always good to be able to work with Gitbash itself, i.e. commands. You can
 check the progress of your work in Ungit to see if you are doing things correctly.   
+
+Git log gives you an overview of the commits. This will also show the person (ID + email) of the person making the commit. This is important
+when collaborating with colleagues. Therefore, it is always necessary to be logged in when working with Gitbash. 
+
+Git checkout allows you to show the past versions. Be aware! Changing the past can lead to confusion and issues, so better not try it out! You should
+just use the checkout to SEE what you changed. 
+
+
 
