@@ -48,6 +48,7 @@ git pull					Get the latest version of the remote repository in your local repos
 							--> to get back to the old version (backup)
 							--> to get new updates from your collaborators
 git clone					Copy a repository from a remote repository, creating a local repository
+git branch					Show the branches that are available in the local repository, * indicates the active branch
 		
 		
 
@@ -157,10 +158,15 @@ without initializing a new repository.
 
 
 
-
-What to do when conflict happen?
+How to work with branches?
 1) Branching: create an alternative timeline, connected but independent, by using
 	"git branch *xxx*"
+2) Switch to the other branch by using
+	"git checkout experiment"
+3a) Work in the new branch, changing files, and then commit the changes to the branch 
+3b) Potentially, you can also push the new branch to the remote repository by using "git push"
+
+
 
 
 
