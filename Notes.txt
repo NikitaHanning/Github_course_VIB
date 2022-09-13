@@ -140,6 +140,15 @@ What to do if you accidently delete one file and commit it?
 
 
 
+How to collaborate using GitHub?
+
+1) Go to 'settings' in the online repository
+2) Go to 'Collaborators' on the left side
+3) Find the person you want to collaborate with, and send an invitation to collaborate. The other person needs to accept the invitation (via GitHub notifications or email)
+
+
+
+
 
 
 
