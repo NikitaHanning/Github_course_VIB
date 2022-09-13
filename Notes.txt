@@ -42,6 +42,22 @@ git checkout *hash*				travel back towards a specific commit
 		
 
 
+
+Notes about the commands:
+
+In Ungit, you can commit changes without adding them to a staging area (simply by pushing the 'commit' button). This is useful, but
+certain complex tasks cannot be done this way. Therefore, it is always good to be able to work with Gitbash itself, i.e. commands. You can
+check the progress of your work in Ungit to see if you are doing things correctly.   
+
+Git log gives you an overview of the commits. This will also show the person (ID + email) of the person making the commit. This is important
+when collaborating with colleagues. Therefore, it is always necessary to be logged in when working with Gitbash. 
+
+Git checkout allows you to show the past versions. Be aware! Changing the past can lead to confusion and issues, so better not try it out! You should
+just use the checkout to SEE what you changed. 
+
+
+
+
 Conceptual notes:
 
 Git creates a timeline that allows us to save different versions of files, and trace back changes (or even go back to them).
@@ -59,15 +75,7 @@ There are 4 conceptual areas where you can work with git:
    --> Staging area: a channel connecting the developing area and the local repository. 
 
 
-In Ungit, you can commit changes without adding them to a staging area (simply by pushing the 'commit' button). This is useful, but
-certain complex tasks cannot be done this way. Therefore, it is always good to be able to work with Gitbash itself, i.e. commands. You can
-check the progress of your work in Ungit to see if you are doing things correctly.   
 
-Git log gives you an overview of the commits. This will also show the person (ID + email) of the person making the commit. This is important
-when collaborating with colleagues. Therefore, it is always necessary to be logged in when working with Gitbash. 
-
-Git checkout allows you to show the past versions. Be aware! Changing the past can lead to confusion and issues, so better not try it out! You should
-just use the checkout to SEE what you changed. 
 
 
 
