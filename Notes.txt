@@ -79,5 +79,23 @@ There are 4 conceptual areas where you can work with git:
 
 
 
+Working on a repository via GitHub:
+
+1) Click on the button "new repository" on the top right of the screen
+2) Fill in a title and description
+	- README and .gitignore files are important!
+		--> README describes the project, in as much detail as possible. For example, how to debug scripts, what is the project about, who is involved, ... You
+		    can make this file as a txt-file in the local repository. 
+		--> .gitignore tells Git what NOT to store, such as big data files, backup files or intermediate files. These should not be commited to GitHub. There is
+                    a limit of 100 MB per document. You can pay for larger files, up to 500 MB. It is recommended to only store files that need version control and that
+		    are smaller. You can make a txt-file with the name '.gitignore' and add information about the files to exclude;
+				--> *.csv		ignores csv
+		    		--> !dataset.cbs	except this file
+	- choose public/private according to own preferences
+3) 
+
+
+
+
 
 
