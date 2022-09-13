@@ -42,6 +42,7 @@ git checkout HEAD~2				Travel backwards 2 commits from your relative position
 git rm xxx					Delete a file from the repository (needs to be commited afterwards)
 git remote *name* *url*				Create a link with a remote respository such as GitHub, convention is to name the bridge "origin"
 git branch -M master 				Create a new branch (M = move and force, ensuring that the main branch is called master)
+git branch *name*				Create a new branch with a specific name
 git push -u origin master			Push from the local repository (master) to the remote repository (origin)
 git pull					Get the latest version of the remote repository in your local repository 
 							--> to get back to the old version (backup)
@@ -145,10 +146,22 @@ How to collaborate using GitHub?
 1) Go to 'settings' in the online repository
 2) Go to 'Collaborators' on the left side
 3) Find the person you want to collaborate with, and send an invitation to collaborate. The other person needs to accept the invitation (via GitHub notifications or email)
-
-
-
 !! collaborating on this like a boss :P
+
+
+
+How to work with subfolders?
+
+Do NOT initialize a new git repository; it will start a second timeline, that co-exists with the other timeline. This becomes messy! The subfolder can be tracked
+without initializing a new repository. 
+
+
+
+
+What to do when conflict happen?
+1) Branching: create an alternative timeline, connected but independent, by using
+	"git branch *xxx*"
+
 
 
 
