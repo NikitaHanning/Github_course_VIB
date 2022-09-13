@@ -59,7 +59,7 @@ Git checkout allows you to show the past versions. Be aware! Changing the past c
 Conceptual notes:
 
 Git creates a timeline that allows us to save different versions of files, and trace back changes (or even go back to them).
-Each version will be saved using a "commit". GitHub is a backup of the different timelines.
+Each version will be saved using a "commit". GitHub is a backup of the different timelines (projects). 
 
 Git = timemachine
 Repository = timeline
@@ -70,7 +70,11 @@ There are 4 conceptual areas where you can work with git:
 1) your personal computer
    --> Developing area: folder where the project is developed. This is where we will develop the project, e.g. our working files.
    --> Local repository: this is where the 'timeline' is. This is where you save snapshots that will document the timeline. 
-   --> Staging area: a channel connecting the developing area and the local repository. 
+   --> Staging area: a channel connecting the developing area and the local repository.
+2) another computer: 'remote repository'
+	- a second computer in your office
+	- computer of a colleague
+	- GitHub! 
 
 
 
