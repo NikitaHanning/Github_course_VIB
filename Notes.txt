@@ -46,6 +46,7 @@ git push -u origin master			Push from the local repository (master) to the remot
 git pull					Get the latest version of the remote repository in your local repository 
 							--> to get back to the old version (backup)
 							--> to get new updates from your collaborators
+git clone					Copy a repository from a remote repository, creating a local repository
 		
 		
 
@@ -124,7 +125,10 @@ What to do if you accidently delete the entire local repository?
 4) Add the remote repository using "git remote add origin *url*"
 5) Download the commits, files and refs of the remote repository using "git fetch"
 6) Update the local repository using "git pull origin master" 
---> alternative "git clone *url*"
+--> alternative "git clone *url*", which directly fixes everything
+--> unlike "git pull", "git clone" downloads everything, instead of just the updates
+
+
 
 
 What to do if you accidently delete one file and commit it?
