@@ -51,7 +51,8 @@ check the progress of your work in Ungit to see if you are doing things correctl
 Git log gives you an overview of the commits. This will also show the person (ID + email) of the person making the commit. This is important
 when collaborating with colleagues. Therefore, it is always necessary to be logged in when working with Gitbash. 
 
-Git checkout allows you to show the past versions. Be aware! Changing the past can lead to confusion and issues, so better not try it out! You should just use the checkout to SEE what you changed. 
+Git checkout allows you to show the past versions. Be aware! Changing the past can lead to confusion and issues, so better not try it out! You 
+should just use the checkout to SEE what you changed. 
 
 
 
@@ -88,9 +89,10 @@ Working on a repository via GitHub:
 		    can make this file as a txt-file in the local repository. 
 		--> .gitignore tells Git what NOT to store, such as big data files, backup files or intermediate files. These should not be commited to GitHub. There is
                     a limit of 100 MB per document. You can pay for larger files, up to 500 MB. It is recommended to only store files that need version control and that
-		    are smaller. You can make a txt-file with the name '.gitignore' and add information about the files to exclude;
+		    are smaller. You can make a txt-file with the name '.gitignore' and add information about the files to exclude (as a list);
 				--> *.csv		ignores csv
 		    		--> !dataset.cbs	except this file
+				--> #message		annotate the txt file
 	- choose public/private according to own preferences
 3) 
 
