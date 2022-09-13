@@ -124,11 +124,16 @@ What to do if you accidently delete the entire local repository?
 4) Add the remote repository using "git remote add origin *url*"
 5) Download the commits, files and refs of the remote repository using "git fetch"
 6) Update the local repository using "git pull origin master" 
+--> alternative "git clone *url*"
 
 
 What to do if you accidently delete one file and commit it?
 
-1) Use "git revert --no-commit *hash*"
+1) Check the hash code of the commit you want to return to using "git log"
+2) Use "git revert --no-commit *hash*" to return to the correct commit
+	--> alternative that is very dangerous: "git reset hard"
+
+
 
 
 
