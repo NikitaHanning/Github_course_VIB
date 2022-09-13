@@ -165,11 +165,21 @@ How to work with branches?
 	"git checkout experiment"
 3a) Work in the new branch, changing files, and then commit the changes to the branch 
 3b) Potentially, you can also push the new branch to the remote repository by using "git push"
+4) After having finished with the branch, and if you want to add the code to the master branch, use
+	"git merge *xxx* with x the name of the branch that you want to add to the master
 
 If you go back in time (to a previous commit) and then make changes, it is a good idea to create a new branch to be able
 to retrieve the data, by using
 	"git branch *new name* *hash*"
 
+
+
+
+How to resolve merging conflicts?
+1) Open the file that causes errors in a text editor such as notepad
+2) Find the changes, indicated by <<<<< and >>>>>, and change it to what you want it to be. Just make sure that the markings are gone after the change.
+3) Save the file
+4) Commit the change
 
 
 
