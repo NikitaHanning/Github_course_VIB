@@ -35,9 +35,10 @@ git commit -m "xxx"				Fix the changed documents to the timeline, with a meaning
 						the message, you get forced to write a message in a pop-up text editor. 
 git log						See the history of all commits
 git log -2					See only the last 2 commits
-git checkout *hash*				travel to another commit, potentially creating a new branch you can start working on
-git checkout master				travel back to the version you were working on, in the main branch (master branch)
-git checkout HEAD~2				travel backwards 2 commits from your relative position	
+git checkout *hash*				Travel to another commit, potentially creating a new branch you can start working on
+git checkout master				Travel back to the version you were working on, in the main branch (master branch)
+git checkout HEAD~2				Travel backwards 2 commits from your relative position	
+git rm xxx					Delete a file from the repository (needs to be commited afterwards)
 		
 		
 
