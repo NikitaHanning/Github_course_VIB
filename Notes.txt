@@ -43,6 +43,9 @@ git rm xxx					Delete a file from the repository (needs to be commited afterward
 git remote *name* *url*				Create a link with a remote respository such as GitHub, convention is to name the bridge "origin"
 git branch -M master 				Create a new branch (M = move and force, ensuring that the main branch is called master)
 git push -u origin master			Push from the local repository (master) to the remote repository (origin)
+git pull					Get the latest version of the remote repository in your local repository 
+							--> to get back to the old version (backup)
+							--> to get new updates from your collaborators
 		
 		
 
